@@ -64,7 +64,7 @@ map.on('load', function() {
 
 			
 			var popup = new mapboxgl.Popup()
-				.setHTML("<h4>" + breweryData.name + "</h4>" + "Adress: " + breweryData.street + ", " + breweryData.city + "</br>" + "Tel: " + breweryData.phone + "</br>" + "E-mail " + breweryData.website_url)
+				.setHTML("<h4>" + breweryData.name + "</h4>" + "Adress: " + breweryData.street + ", " + breweryData.city + "</br>" + "Tel: " + breweryData.phone + "</br>" + "<b>E-mail: </b>" + breweryData.website_url)
 				
 			//markers aanroepen met de coordinaten van Ohio breweries
 			new mapboxgl.Marker(el)
