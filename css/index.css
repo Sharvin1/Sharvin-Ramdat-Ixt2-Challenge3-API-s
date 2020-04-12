@@ -1,0 +1,15 @@
+.mapboxgl-ctrl-top-right {
+	margin-right: 2%;
+}
+#map {
+	width: 100vw;
+	height: 100vh;
+}
+.marker {	
+	background-image: url('../images/beer.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	}
