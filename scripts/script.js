@@ -58,7 +58,7 @@ map.on('load', function() {
 
 			geojson.features.forEach(function(marker) {
 
-			 // create a HTML element for each feature
+			 //een html div maken voor de achtergrond
 			var el = document.createElement('div');
 			el.className = 'marker';
 
