@@ -18,8 +18,8 @@ map.addControl(nav, 'top-left')
 map.on('load', function() {
 	
 		//open brewey ophalen
-		fetch('https://api.openbrewerydb.org/breweries?by_state=ohio')
-
+		//fetch('https://api.openbrewerydb.org/breweries?by_state=ohio')
+		fetch('https://api.openbrewerydb.org/breweries')
 		//data in json
 		.then(function(response) {
 			return response.json();
